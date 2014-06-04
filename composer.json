@@ -1,0 +1,30 @@
+{
+	"name": "meerkat/meerkat-twig",
+	"type": "kohana-module",
+	"description": "Core module for MeerkatCMF (on Kohana 3.3)",
+	"homepage": "http://github.com/meerkat/core",
+	"license": "MIT",
+	"keywords": ["kohana", "module", "meerkat"],
+	"authors": [
+                {
+                        "name": "Bootstrap Core team",
+                        "homepage": "http://getbootstrap.com/",
+                        "role": "Developers"
+                }, 
+				{
+					"name": "Alexey Berdnikov",
+					"email": "aberdnikov@gmail.com",
+					"homepage": "https://github.com/aberdnikov",
+					"role": "Module maintainer"
+			}
+	],
+	"require": {
+			"php": ">=5.3",
+			"composer/installers": "*",
+			"meerkat/event": "*"
+	},
+     "include-path": [
+        "include",
+        "vendor"
+    ] 	
+}
