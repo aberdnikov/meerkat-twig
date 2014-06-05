@@ -1,4 +1,5 @@
 <?php
+    use Meerkat\Twig\Twig;
     if (isset($_SERVER['PHP_SELF'])) {
         Twig::set_global('PHP_SELF', $_SERVER['PHP_SELF']);
     }
