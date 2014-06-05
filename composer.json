@@ -1,16 +1,27 @@
 {
 	"name": "meerkat/meerkat-twig",
 	"type": "kohana-module",
-	"description": "Core module for MeerkatCMF (on Kohana 3.3)",
+	"description": "Twig module for MeerkatCMF (on Kohana 3.3)",
 	"homepage": "http://github.com/meerkat/core",
 	"license": "MIT",
-	"keywords": ["kohana", "module", "meerkat"],
+	"keywords": ["kohana", "module", "meerkat", "twig", "template"],
 	"authors": [
-                {
-                        "name": "Bootstrap Core team",
-                        "homepage": "http://getbootstrap.com/",
-                        "role": "Developers"
-                }, 
+				{
+					"name": "Fabien Potencier",
+					"email": "fabien@symfony.com",
+					"homepage": "http://fabien.potencier.org",
+					"role": "Lead Developer"
+				},
+				{
+					"name": "Twig Team",
+					"homepage": "https://github.com/fabpot/Twig/graphs/contributors",
+					"role": "Contributors"
+				},
+				{
+					"name": "Armin Ronacher",
+					"role": "Project Founder",
+					"email": "armin.ronacher@active-4.com"
+				}
 				{
 					"name": "Alexey Berdnikov",
 					"email": "aberdnikov@gmail.com",
@@ -21,7 +32,8 @@
 	"require": {
 			"php": ">=5.3",
 			"composer/installers": "*",
-			"meerkat/event": "*"
+			"meerkat/twig": "*",
+			"meerkat/meerkat-event": "*"
 	},
      "include-path": [
         "include",
