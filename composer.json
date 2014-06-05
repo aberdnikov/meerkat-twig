@@ -6,28 +6,28 @@
 	"license": "MIT",
 	"keywords": ["kohana", "module", "meerkat", "twig", "template"],
 	"authors": [
-				{
-					"name": "Fabien Potencier",
-					"email": "fabien@symfony.com",
-					"homepage": "http://fabien.potencier.org",
-					"role": "Lead Developer"
-				},
-				{
-					"name": "Twig Team",
-					"homepage": "https://github.com/fabpot/Twig/graphs/contributors",
-					"role": "Contributors"
-				},
-				{
-					"name": "Armin Ronacher",
-					"role": "Project Founder",
-					"email": "armin.ronacher@active-4.com"
-				}
-				{
-					"name": "Alexey Berdnikov",
-					"email": "aberdnikov@gmail.com",
-					"homepage": "https://github.com/aberdnikov",
-					"role": "Module maintainer"
-			}
+		{
+			"name": "Fabien Potencier",
+			"email": "fabien@symfony.com",
+			"homepage": "http://fabien.potencier.org",
+			"role": "Lead Developer"
+		},
+		{
+			"name": "Twig Team",
+			"homepage": "https://github.com/fabpot/Twig/graphs/contributors",
+			"role": "Contributors"
+		},
+		{
+			"name": "Armin Ronacher",
+			"role": "Project Founder",
+			"email": "armin.ronacher@active-4.com"
+		},
+		{
+			"name": "Alexey Berdnikov",
+			"email": "aberdnikov@gmail.com",
+			"homepage": "https://github.com/aberdnikov",
+			"role": "Module maintainer"
+		}
 	],
 	"require": {
 			"php": ">=5.3",
